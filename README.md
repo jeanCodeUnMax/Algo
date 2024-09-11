@@ -33,11 +33,6 @@ Poussez la branche (git push origin feature/NomDeLaFonctionnalite).
 Ouvrez une Pull Request.
 
 
-**Licence**
-
-
-Ce projet est distribué sous la licence Apache 2.0. Voir le fichier LICENSE pour plus d'informations.
-
 **Contact**
 
 
