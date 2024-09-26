@@ -38,11 +38,11 @@ Créez votre branche de fonctionnalités.
 
 Committez vos changements.
 ```bash
-  git commit -am 'Ajout de certaines fonctionnalités
+  git commit -m "Ajout de certaines réponses ou exercices"
 ```
-Poussez la branche (git push origin feature/NomDeLaFonctionnalite).
+Poussez la branche.
 ```bash
-  git push origin feature/NomDeVitreBranche
+  git push origin feature/NomDeVotreBranche
 ```
 Ouvrez une Pull Request par la suite pour demande de validation
 
