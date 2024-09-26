@@ -14,9 +14,9 @@ Test Facile: Un fichier HTML est fourni pour chaque solution JS pour permettre u
 
 
 Pour plus d'exercices il existe certains sites spécialisés en algo: 
-https://www.codewars.com
+<br>https://www.codewars.com</br>
 
-https://leetcode.com
+<br>https://leetcode.com</br>
 
 Pour utiliser ou tester une solution, suivez ces étapes simples:
 
