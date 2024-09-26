@@ -42,3 +42,15 @@ Les contributions sont encouragées ! Si vous souhaitez ajouter des exercices, a
 
 Ouvrez une Pull Request par la suite pour demande de validation !
 
+
+---
+
+## 🔗 **Ressources Supplémentaires**
+
+Envie de plus de défis en algorithmique ? Consultez ces sites :
+- [Codewars](https://www.codewars.com)
+- [LeetCode](https://leetcode.com)
+
+---
+
+**Happy Coding !**
