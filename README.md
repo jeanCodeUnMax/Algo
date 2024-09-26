@@ -11,8 +11,12 @@ Ce projet vise à fournir une collection croissante d'exercices d'algorithmique 
 Exercices Diversifiés: Une gamme d'exercices couvrant différents concepts algorithmiques.
 Solutions JavaScript: Chaque exercice est résolu avec une fonction JavaScript spécifique.
 Test Facile: Un fichier HTML est fourni pour chaque solution JS pour permettre un test rapide et facile.
-Pour plus d'exercices: https://www.codewars.com
 
+
+Pour plus d'exercices il existe certains sites spécialisés en algo: 
+https://www.codewars.com
+
+https://leetcode.com
 
 Pour utiliser ou tester une solution, suivez ces étapes simples:
 
