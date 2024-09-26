@@ -18,7 +18,7 @@ Bienvenue dans le projet **Exercices d'Algorithmique en JavaScript**, une collec
 
 ## 🤝 **Contribuer au Projet**
 
-Les contributions sont encouragées ! Si vous souhaitez ajouter des exercices, améliorer les solutions ou corriger des erreurs, suivez ces étapes :
+Les contributions dans tous les langages sont les bienvenues ! Si vous souhaitez ajouter des exercices dans d'autres langages que JavaScript, améliorer les solutions existantes ou corriger des erreurs, suivez ces étapes :
 
 1. Créez une nouvelle branche pour votre fonctionnalité :
 
