@@ -1,51 +1,44 @@
-**_NomDuProjet: Exercices d'Algorithmique en JavaScript_**
+# **Exercices d'Algorithmique en JavaScript**
 
-**Description**
+## 📋 **Description**
 
+Bienvenue dans le projet **Exercices d'Algorithmique en JavaScript**, une collection en constante évolution d'exercices résolus pour vous aider à maîtriser l'algorithmique avec JavaScript. Chaque exercice est accompagné d'une solution JavaScript et d'un fichier HTML permettant de tester rapidement et facilement les scripts directement dans un navigateur. Idéal pour débutants en algorithmique et en programmation JavaScript !
 
-Ce projet vise à fournir une collection croissante d'exercices d'algorithmique résolus en JavaScript. Chaque exercice est accompagné d'une solution implémentée en JavaScript et d'un fichier HTML correspondant pour faciliter l'exécution et le test des scripts dans un navigateur. Ce projet est idéal pour ceux qui cherchent à débuter en algorithmique et en programmation JavaScript !
+---
 
-**Fonctionnalités**
+## 🚀 **Comment Utiliser ce Projet**
 
+1. Ouvrez le fichier HTML correspondant à l'exercice que vous souhaitez tester dans votre navigateur.
 
-Exercices Diversifiés: Une gamme d'exercices couvrant différents concepts algorithmiques.
-Solutions JavaScript: Chaque exercice est résolu avec une fonction JavaScript spécifique.
-Test Facile: Un fichier HTML est fourni pour chaque solution JS pour permettre un test rapide et facile.
+2. Les scripts JavaScript sont déjà liés aux fichiers HTML, il vous suffit de les exécuter dans votre navigateur pour visualiser les solutions apportées.
 
+3. **(Optionnel)** : Vous pouvez personnaliser les solutions en modifiant les fichiers JavaScript, puis actualiser la page HTML pour tester vos propres données !
 
-Pour plus d'exercices il existe certains sites spécialisés en algo: 
-<br>https://www.codewars.com</br>
-<br>https://leetcode.com</br>
+---
 
-Pour utiliser ou tester une solution, suivez ces étapes simples:
+## 🤝 **Contribuer au Projet**
 
+Les contributions sont encouragées ! Si vous souhaitez ajouter des exercices, améliorer les solutions ou corriger des erreurs, suivez ces étapes :
 
-Clonez le dépôt sur votre machine locale en utilisant git clone url_du_dépôt.
-```bash
-  https://github.com/Baylox/Algo.git
-```
+1. Créez une nouvelle branche pour votre fonctionnalité :
 
-Ouvrez le fichier HTML correspondant à l'exercice que vous souhaitez tester dans votre navigateur.
+    ```bash
+    git checkout -b feature/NomDeVotreBranche
+    ```
 
-Les scripts JavaScript sont déjà liés aux fichiers HTML. Vous pouvez les exécuter directement dans votre navigateur pour voir le résultat des exercices. A vous de créer vos propres solutions !
+2. Committez vos changements :
 
-(Optionnel) Pour tester avec vos propres données, modifiez le fichier JavaScript correspondant et rafraîchissez la page HTML dans votre navigateur.
+    ```bash
+    git commit -m "Ajout de nouvelles solutions ou exercices"
+    ```
 
-**Comment Contribuer**
-Les contributions sont les bienvenues ! Si vous souhaitez ajouter de nouveaux exercices, améliorer les solutions existantes ou même corriger des erreurs, voici comment procéder :
+3. Poussez la branche vers le dépôt :
 
-Créez votre branche de fonctionnalités.
-```bash
-  git checkout -b feature/NomDeVotreBranche
-```
+    ```bash
+    git push origin feature/NomDeVotreBranche
+    ```
 
-Committez vos changements.
-```bash
-  git commit -m "Ajout de certaines réponses ou exercices"
-```
-Poussez la branche.
-```bash
-  git push origin feature/NomDeVotreBranche
-```
-Ouvrez une Pull Request par la suite pour demande de validation
+💡 Ce projet est parfait pour toute personne souhaitant s'améliorer en programmation algorithmique et en JavaScript. N’hésitez pas à forker et à proposer vos propres améliorations !
+
+Ouvrez une Pull Request par la suite pour demande de validation !
 
