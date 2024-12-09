@@ -1,5 +1,7 @@
-//*Exercice 5 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche la table de multiplication de ce nombre.*//
+// Exercice 5 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche la table de multiplication de ce nombre.
+
 function multiplication() {
+
     let nombre = parseFloat(prompt("Nombre pour obtenir sa table de multiplication :"));
     let tablemulti = [];
 

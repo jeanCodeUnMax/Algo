@@ -1,4 +1,4 @@
-//* Exercice 4 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche tous les nombres premiers compris entre 1 et ce nombre. *//
+// Exercice 4 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche tous les nombres premiers compris entre 1 et ce nombre.
 
 function nombrePremier() {
     let nombre = parseFloat(prompt("Nombre :"));

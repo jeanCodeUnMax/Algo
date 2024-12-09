@@ -1,4 +1,5 @@
 /**Exercice 2 : Écrire un algorithme qui demande à l'utilisateur de saisir deux nombres et qui affiche leur somme.**/
+
 function somme() {
     let nombre1 = prompt("Le premier nombre :");
     let nombre2 = prompt("Le deuxième nombre :");

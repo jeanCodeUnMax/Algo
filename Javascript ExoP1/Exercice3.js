@@ -1,4 +1,5 @@
 /**Exercice 3 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche tous les nombres pairs compris entre 1 et ce nombre.**/
+
 function pairs() {
     let nombre = parseFloat(prompt("Nombre :")); // Appliquer le parseFloat directement au prompt
     
