@@ -4,6 +4,8 @@
 
 Bienvenue dans le projet **Exercices d'Algorithmique en JavaScript**, une collection en constante évolution d'exercices résolus pour vous aider à maîtriser l'algorithmique avec JavaScript. Chaque exercice est accompagné d'une solution JavaScript et d'un fichier HTML permettant de tester rapidement et facilement les scripts directement dans un navigateur. Idéal pour débutants en algorithmique et en programmation JavaScript !
 
+Notez que certaines solutions peuvent ne pas être optimisées. N'hésitez pas à les améliorer et à proposer vos propres versions !
+
 ---
 
 ## 🚀 **Comment Utiliser ce Projet**
@@ -40,7 +42,7 @@ Les contributions dans tous les langages sont les bienvenues ! Si vous souhaitez
 
 💡 Ce projet est parfait pour toute personne souhaitant s'améliorer en programmation algorithmique et en JavaScript. N’hésitez pas à forker et à proposer vos propres améliorations !
 
-Ouvrez une Pull Request par la suite pour demande de validation !
+Ouvrez une Pull Request par la suite pour demande de validation ! 
 
 
 ---
