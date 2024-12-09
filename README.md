@@ -50,6 +50,14 @@ Ouvrez une Pull Request par la suite pour demande de validation !
 Envie de plus de défis en algorithmique ? Consultez ces sites :
 - [Codewars](https://www.codewars.com)
 - [LeetCode](https://leetcode.com)
+- [HackerRank](https://www.hackerrank.com)
+- [Exercism](https://exercism.io)
+- [Project Euler](https://projecteuler.net)
+- [TopCoder](https://www.topcoder.com)
+- [Codeforces](https://codeforces.com)
+- [SPOJ](https://www.spoj.com)
+- [GeeksforGeeks](https://www.geeksforgeeks.org)
+- [InterviewBit](https://www.interviewbit.com)
 
 ---
 
