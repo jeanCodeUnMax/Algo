@@ -26,6 +26,20 @@ function additionAlt() {
 
 /**Exercice 3 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche tous les nombres pairs compris entre 1 et ce nombre.**/
 
+function pairs() {
+    let number = parseFloat(prompt('Entrez un nombre, je vous donne tout les nombre pair entre 1 et ce nombre'));
+    let tableau = [];
+    let i = 1;
+    while (i < number) {
+        if (i % 2 === 0 ) {
+            tableau.push(i);
+        }
+        i++
+    }
+
+    return alert(tableau);
+}
+
 /**Exercice 4 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche tous les nombres premiers compris entre 1 et ce nombre.**/
 
 /**Exercice 5 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche la table de multiplication de ce nombre.**/
