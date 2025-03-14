@@ -110,6 +110,13 @@ function calculfactorielle(number) {
 
 /**Exercice 7 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche son inverse.**/
 
+function inverse() {
+    let number = parseFloat(prompt('Nombre :'));
+
+    result = number * -1;
+    return result;
+}
+
 /**Exercice 8 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche son plus grand diviseur.**/
 
 /**Exercice 9 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche son plus petit diviseur.**/
