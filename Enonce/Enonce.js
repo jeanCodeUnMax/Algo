@@ -311,4 +311,25 @@ function suitePell() {
 
 /**Exercice 19 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa suite de Fibonacci généralisée jusqu'à ce nombre.**/
 
+function fibonacciGeneral() {
+    let number1 = parseFloat(prompt('Entrez le premier terme de la suite de fibonacci')) ;
+    let number2 = parseFloat(prompt('Entrez le second terme de la suite de fibonacci')) ;
+    limite = parseFloat(prompt('donnez moi le nombre max a ne pas dépasser'));
+    let suiteFibo = [number1,number2];
+    let i = 2;
+
+    while (suiteFibo[i-1] < limite) {
+
+        suiteFibo[i] = suiteFibo[i-1] + suiteFibo[i-2];
+
+
+        i++;
+    }
+    suiteFibo.pop();
+    return alert(`la suite de fibonacci pour votre nombre est ${suiteFibo}`);
+
+}
+
 /**Exercice 20 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa suite de Lucas généralisée jusqu'à ce nombre.**/
+
+// Pareil que Fibonacci généralisé ?
