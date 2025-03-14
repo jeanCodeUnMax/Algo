@@ -81,6 +81,33 @@ function table() {
 
 /**Exercice 6 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa factorielle.**/
 
+function factorielle() {
+
+    let number = parseFloat(prompt('Nombre :'));
+    let result;
+    
+    if(number === 1 || number === 0) {
+
+        return 1;
+    }
+    
+    calculfactorielle(number);
+
+    console.log(`{la factorielle de ${number} est ${result}`);
+}
+
+function calculfactorielle(number) {
+    let result = 1;
+
+    for (let i = 1; i <= number; i++) {
+
+        result *= i;
+        
+    }
+
+    return alert(result);
+}
+
 /**Exercice 7 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche son inverse.**/
 
 /**Exercice 8 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche son plus grand diviseur.**/
