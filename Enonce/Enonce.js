@@ -189,6 +189,25 @@ function petitMultiple() {
 
 /**Exercice 12 : Écrire un algorithme qui demande à l'utilisateur de saisir deux nombres et qui affiche le plus grand commun diviseur de ces deux nombres.**/
 
+function pgDiviseurNumber() {
+    number = prompt('Entrez deux nombre séparé par une virgule, je vous donne leur plus grand diviseur commun de ces 2 nombres')
+    let numbers = number.split(',');
+    let number1 = parseFloat(numbers[0]);
+    let number2 = parseFloat(numbers[1]);
+    let pgDiviseur = 1 ;
+
+    number = Math.min(number1,number2);   
+    
+    for (i= 2; i <= number; i++) {
+
+        if (number1 % i === 0 && number2 % i === 0) {
+                pgDiviseur = i;
+            
+            }
+        }
+    return alert(`le plus grand diviseur commun entre ces deux nombres est ${pgDiviseur}`);
+}
+
 /**Exercice 13 : Écrire un algorithme qui demande à l'utilisateur de saisir deux nombres et qui affiche le plus petit commun multiple de ces deux nombres.**/
 
 /**Exercice 14 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa suite de Fibonacci jusqu'à ce nombre.**/
