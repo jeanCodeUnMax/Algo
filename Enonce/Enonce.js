@@ -227,6 +227,23 @@ function ppMultiple() {
 
 /**Exercice 14 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa suite de Fibonacci jusqu'à ce nombre.**/
 
+function Fibonacci() {
+    number = parseFloat(prompt('Entrez un nombre, je vous donne sa suite de fibonacci')) ;
+    let suiteFibo = [0,1];
+    let i = 2;
+
+    while (suiteFibo[i-1] < number) {
+        
+        suiteFibo[i] = suiteFibo[i-1] + suiteFibo[i-2];
+
+
+        i++;
+    }
+    suiteFibo.pop();
+    return alert(`la suite de fibonacci pour votre nombre est ${suiteFibo}`);
+
+}
+
 /**Exercice 15 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa suite de Syracuse jusqu'à ce nombre.**/
 
 /**Exercice 16 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa suite de Collatz jusqu'à ce nombre.**/
