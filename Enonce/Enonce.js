@@ -270,7 +270,25 @@ function Syracuse() {
 
 /**Exercice 16 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa suite de Collatz jusqu'à ce nombre.**/
 
+ // PAREIL QUE SYRACUSE? **/
+
 /**Exercice 17 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa suite de Lucas jusqu'à ce nombre.**/
+
+function suiteLucas() {
+    number = parseFloat(prompt('Entrez un nombre, je vous donne sa suite de Lucas')) ;
+    let suiteLucas = [2,1];
+    let i = 2;
+
+    while (suiteLucas[i-1] < number) {
+
+        suiteLucas[i] = suiteLucas[i-1] + suiteLucas[i-2];
+
+        i++;
+    }
+    suiteLucas.pop(); //supprime l'element qui dépasse la limite
+    return alert(`la suite de Lucas pour votre nombre est ${suiteLucas}`);
+
+}
 
 /**Exercice 18 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa suite de Pell jusqu'à ce nombre.**/
 
