@@ -172,6 +172,21 @@ function pgDiviseurDix() {
 
 /**Exercice 11 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche son ppcm avec 10.**/
 
+function petitMultiple() {
+    let nombre = parseFloat(prompt("Entrez un nombre, je vous donne son plus petit multiple commun avec 10")); 
+    let pgcd = 1
+
+    for (let i = 1; i <= nombre; i++ ){
+        if (nombre % i === 0 && 10 % i === 0 ){
+
+            pgcd = i
+        }
+    }
+    ppcm = (nombre*10)/pgcd;
+    return alert(`Le plus petit commun multiple de ${nombre} est ${ppcm}`);
+    
+}
+
 /**Exercice 12 : Écrire un algorithme qui demande à l'utilisateur de saisir deux nombres et qui affiche le plus grand commun diviseur de ces deux nombres.**/
 
 /**Exercice 13 : Écrire un algorithme qui demande à l'utilisateur de saisir deux nombres et qui affiche le plus petit commun multiple de ces deux nombres.**/
