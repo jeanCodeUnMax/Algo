@@ -210,6 +210,21 @@ function pgDiviseurNumber() {
 
 /**Exercice 13 : Écrire un algorithme qui demande à l'utilisateur de saisir deux nombres et qui affiche le plus petit commun multiple de ces deux nombres.**/
 
+function ppMultiple() {
+    number = prompt('Entrez deux nombre séparé par une virgule, je vous donne leur plus petit multiple commun')
+    let numberTable = number.split(',').map(num => parseInt(num.trim()));
+    let number1 = numberTable[0];
+    let number2 = numberTable[1];
+    let ppcm = Math.max(number1,number2) ;
+
+    while (ppcm % number1 !== 0 || ppcm % number2 !== 0){
+        
+        ppcm++
+    }
+
+            return alert(`le plus petit multiple commun entre ces deux nombres est ${ppcm}`);
+}
+
 /**Exercice 14 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa suite de Fibonacci jusqu'à ce nombre.**/
 
 /**Exercice 15 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa suite de Syracuse jusqu'à ce nombre.**/
