@@ -136,6 +136,20 @@ function bigDivide() {
 
 /**Exercice 9 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche son plus petit diviseur.**/
 
+function diviseurMoins() {
+    let number = parseFloat(prompt('Entrez un nombre je vous donne son plus petit diviseur')) 
+    let diviseur = 0;
+    for (i= 2; i <= number; i++) {
+
+        if (number % i === 0) {
+            
+                diviseur = i;
+                return alert(`Le plus petit divisieur de ${number} est ${diviseur}`);
+            }
+    }
+
+}
+
 /**Exercice 10 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche son pgcd avec 10.**/
 
 /**Exercice 11 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche son ppcm avec 10.**/
