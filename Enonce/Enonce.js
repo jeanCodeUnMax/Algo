@@ -7,6 +7,23 @@ function carre() {
 }
 /**Exercice 2 : Écrire un algorithme qui demande à l'utilisateur de saisir deux nombres et qui affiche leur somme.**/
 
+function addition() {
+
+    let number1 = parseFloat(prompt('Entrez le premier nombre a additionner'));
+    let number2 = parseFloat(prompt('Entrez le deuxieme nombre a additioner'));
+    let result = number1 + number2;
+    return alert('le résultat de l\'addition est ' + result);
+}
+
+function additionAlt() {
+
+    let tableau = prompt('Entrez les deux nombres a additioner séparé par une virgule');
+    let nombres = tableau.split(',');
+    let result = parseFloat(nombres[0]) + parseFloat(nombres[1]);
+    return alert('le résultat de l\'addition est ' + result);
+    
+}
+
 /**Exercice 3 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche tous les nombres pairs compris entre 1 et ce nombre.**/
 
 /**Exercice 4 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche tous les nombres premiers compris entre 1 et ce nombre.**/
