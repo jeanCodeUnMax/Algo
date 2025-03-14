@@ -119,6 +119,21 @@ function inverse() {
 
 /**Exercice 8 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche son plus grand diviseur.**/
 
+function bigDivide() {
+    number = parseFloat(prompt('Entrez un nombre je vous donne son plus grand diviseur')) 
+    let diviseur = 0 
+    for (i= 2; i < number; i++) {
+
+        if (number % i === 0) {
+            if (i > diviseur) {
+                diviseur = i;
+            }
+            }
+    }
+
+    return alert(`le plus grand diviseur est ${diviseur}`)
+}
+
 /**Exercice 9 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche son plus petit diviseur.**/
 
 /**Exercice 10 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche son pgcd avec 10.**/
