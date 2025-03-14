@@ -246,6 +246,28 @@ function Fibonacci() {
 
 /**Exercice 15 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa suite de Syracuse jusqu'à ce nombre.**/
 
+function Syracuse() {
+    let number = parseFloat(prompt('Entrez un nombre, je vous donne sa suite de Syracuse')) ;
+    let Syracuse = [number];//number est le premier nombre entré dans le tableau (comme Syracuse[0] = number)
+    let SyraEnd = number; 
+
+    while (SyraEnd !== 1) {
+
+        if(SyraEnd % 2 === 0) {
+            SyraEnd = SyraEnd / 2;
+            
+        }
+        
+        else {
+            SyraEnd = SyraEnd * 3 + 1;
+            
+        }
+        Syracuse.push(SyraEnd);
+    }
+
+    alert(`La suite de Syracuse pour votre nombre est : ${Syracuse}`);
+}
+
 /**Exercice 16 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa suite de Collatz jusqu'à ce nombre.**/
 
 /**Exercice 17 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa suite de Lucas jusqu'à ce nombre.**/
