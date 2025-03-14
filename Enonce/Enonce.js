@@ -42,6 +42,29 @@ function pairs() {
 
 /**Exercice 4 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche tous les nombres premiers compris entre 1 et ce nombre.**/
 
+function premier() {
+    
+    let number = parseFloat(prompt('Entrez un nombre'));
+    let tableauPremier = [];
+    for(let i = 2; i <= number; i++) {
+        if (verifPremier(i)){
+            
+            tableauPremier.push(i)
+        }
+    }
+
+    return alert(tableauPremier);
+    }
+
+
+function verifPremier(number) {
+for (let i = 2; i < number; i++) {
+    if (number % i === 0 ) {
+        return false;
+    }}
+    return true;
+}
+
 /**Exercice 5 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche la table de multiplication de ce nombre.**/
 
 /**Exercice 6 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa factorielle.**/
