@@ -67,6 +67,18 @@ for (let i = 2; i < number; i++) {
 
 /**Exercice 5 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche la table de multiplication de ce nombre.**/
 
+function table() {
+    let number = parseFloat(prompt('Nombre :'))
+    let tableau = [];
+
+    for(let i = 1; i <= 10; i++) {
+        let result = i * number
+        tableau.push(i + 'x' + number + ' = '  + result)
+    }
+    console.log(tableau.join("\n"));
+    return tableau;
+}
+
 /**Exercice 6 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa factorielle.**/
 
 /**Exercice 7 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche son inverse.**/
