@@ -152,6 +152,24 @@ function diviseurMoins() {
 
 /**Exercice 10 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche son pgcd avec 10.**/
 
+function pgDiviseurDix() {
+    number = parseFloat(prompt('Entrez un nombre, je vous donne son plus grand diviseur commun avec 10')) 
+    let pgDiviseur = 0 
+    if(number === 1 || number === 0) {
+
+        return console.log('pas de diviseur commun')
+    }
+    for (i= 2; i <= number; i++) {
+
+        if (number % i === 0 && 10 % i === 0) {
+                pgDiviseur = i;
+            
+            }
+    }
+
+    return alert(`le plus grand diviseur commun entre ${number} et 10 est ${pgDiviseur}`);
+}
+
 /**Exercice 11 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche son ppcm avec 10.**/
 
 /**Exercice 12 : Écrire un algorithme qui demande à l'utilisateur de saisir deux nombres et qui affiche le plus grand commun diviseur de ces deux nombres.**/
