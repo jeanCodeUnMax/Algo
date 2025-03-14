@@ -292,6 +292,23 @@ function suiteLucas() {
 
 /**Exercice 18 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa suite de Pell jusqu'à ce nombre.**/
 
+function suitePell() {
+    number = parseFloat(prompt('Entrez un nombre, je vous donne sa suite de Pell')) ;
+    limite = parseFloat(prompt('donnez moi le nombre max a ne pas dépasser'));
+    let suitePell = [0,1];
+    let i = 2;
+
+    while (suitePell[i-1] < limite) {
+
+        suitePell[i] = suitePell[i-1] * 2 + suitePell[i-2];
+
+        i++;
+    }
+    suitePell.pop();
+    return alert(`la suite de Pell pour votre nombre est ${suitePell}`);
+
+}
+
 /**Exercice 19 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa suite de Fibonacci généralisée jusqu'à ce nombre.**/
 
 /**Exercice 20 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa suite de Lucas généralisée jusqu'à ce nombre.**/
