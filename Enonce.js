@@ -36,4 +36,4 @@
 
 /**Exercice 19 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa suite de Fibonacci généralisée jusqu'à ce nombre.**/
 
-/**Exercice 20 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa suite de Lucas généralisée jusqu'à ce nombre.**/
+/**Exercice 20 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa suite de Lucas généralisée jusqu'à ce nombre (La suite de Lucas généralisée est une suite récurrente linéaire d’ordre 2, comme la suite de Fibonacci mais avec des valeurs initiales personnalisées.)**/
