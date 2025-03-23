@@ -270,7 +270,32 @@ function Syracuse() {
 
 /**Exercice 16 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa suite de Collatz jusqu'à ce nombre en calculant la durée de vol (Longueur de calcul avant cycle trivial) et l'altitude max (Nombre max).**/
 
- // PAREIL QUE SYRACUSE? **/
+function suiteCollatz() {
+    let number = parseFloat(prompt('Entrez un nombre, je vous donne sa suite de Collatz, son altitude max et sa durée de vol')) ;
+    let Collatz = [number];
+    let collatzEnd = number;
+
+    while (collatzEnd !== 1) {
+
+        if(collatzEnd % 2 === 0) {
+            collatzEnd = collatzEnd / 2;
+            
+        }
+        
+        else {
+            collatzEnd = collatzEnd * 3 + 1;
+            
+        }
+        Collatz.push(collatzEnd);
+    }
+
+    let altitudeMax = Math.max(...Collatz);
+    let longueur = Collatz.length - 3; // possible de le faire via une boucle qui parcours le tableau jusqu'a trouver 4 (debut du cycle trivial)
+    
+    alert(`La suite de Syracuse pour votre nombre est : ${Collatz}\n Son altitude max est ${altitudeMax} \n La longueur de calcul avant de le cycle trivial est de ${longueur}`);
+}
+
+suiteCollatz();
 
 /**Exercice 17 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa suite de Lucas jusqu'à ce nombre.**/
 
