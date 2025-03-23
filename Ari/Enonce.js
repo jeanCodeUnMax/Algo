@@ -268,7 +268,7 @@ function Syracuse() {
     alert(`La suite de Syracuse pour votre nombre est : ${Syracuse}`);
 }
 
-/**Exercice 16 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa suite de Collatz jusqu'à ce nombre.**/
+/**Exercice 16 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa suite de Collatz jusqu'à ce nombre en calculant la durée de vol (Longueur de calcul avant cycle trivial) et l'altitude max (Nombre max).**/
 
  // PAREIL QUE SYRACUSE? **/
 
@@ -330,6 +330,6 @@ function fibonacciGeneral() {
 
 }
 
-/**Exercice 20 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa suite de Lucas généralisée jusqu'à ce nombre.**/
+/**Exercice 20 : Écrire un algorithme qui demande à l'utilisateur de saisir un nombre et qui affiche sa suite de Lucas généralisée jusqu'à ce nombre (La suite de Lucas généralisée est une suite récurrente linéaire d’ordre 2, comme la suite de Fibonacci mais avec des valeurs initiales personnalisées.)**/
 
 // Pareil que Fibonacci généralisé ?
